@@ -22,8 +22,8 @@ title: Operation Turn Boone Blue
 email: mdhart1@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Dedicated to amplifying progressive voices in Belvidere and Boone County, IL.
-baseurl: '' # the subpath of your site, e.g. /blog
-url: 'https://michaeldhart.github.io/otbb-web' # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: '/otbb-web' # the subpath of your site, e.g. /blog
+url: 'https://michaeldhart.github.io' # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: TurnBooneBlue
 github_username: michaeldhart
 
