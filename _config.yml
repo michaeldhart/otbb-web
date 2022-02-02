@@ -1,39 +1,55 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you:
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-
-title: Operation Turn Boone Blue
-email: mdhart1@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Dedicated to amplifying progressive voices in Belvidere and Boone County, IL.
-baseurl: '/otbb-web' # the subpath of your site, e.g. /blog
-url: 'https://michaeldhart.github.io' # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: TurnBooneBlue
-github_username: michaeldhart
+# 'bundle exec jekyll serve' to bundle and serve site locally
 
 # Build settings
 markdown: GFM
-# theme: minima
-remote_theme: pages-themes/cayman@v0.2.0
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
+  - jekyll-include-cache
+
+# Theme settings
+remote_theme: mmistakes/minimal-mistakes@4.24.0
+minimal_mistakes_skin: 'default'
+
+# Site settings
+title: Operation Turn Boone Blue
+subtitle: 'Organizing to Elect Progressives in Belvidere and Boone County'
+email: mdhart1@gmail.com
+url: 'https://michaeldhart.github.io'
+baseurl: '/otbb-web'
+twitter:
+  username: TurnBooneBlue
+encoding: 'utf-8'
+
+# Content settings
+include:
+  - pages
+  - posts
+
+defaults:
+  # pages
+  - scope:
+      path: ''
+      type: pages
+    values:
+      layout: single
+      classes: wide
+      title: 'You should set the title front matter to override for this page'
+      header:
+        overlay_image: /assets/images/courthouse.jpg
+        overlay_filter: rgba(25, 59, 121, 0.8)
+      author_profile: false
+
+  # posts
+  - scope:
+      path: ''
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      share: true
+      related: true
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

@@ -14,6 +14,7 @@ source "https://rubygems.org"
 
 # To upgrade, run `bundle update github-pages`.
 gem "github-pages", "~> 221", group: :jekyll_plugins
+gem "jekyll-include-cache", group: :jekyll_plugins
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
