@@ -278,7 +278,6 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages (~> 221)
-  jekyll-feed (~> 0.12)
   jekyll-include-cache
   jekyll-remote-theme
   tzinfo (~> 1.2)

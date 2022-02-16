@@ -7,8 +7,23 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import 'minimal-mistakes'; // main partials
 
+.masthead,
+#site-nav {
+  background: rgba(25, 59, 121, 1);
+  border: none;
+}
+
+.greedy-nav a {
+  color: #fff;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+
+  &:hover {
+    color: #eef;
+  }
+}
+
 .page__hero--overlay {
-  padding: 6em 0;
+  padding: 12em 0;
 }
 
 #page-title {

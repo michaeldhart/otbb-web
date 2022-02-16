@@ -16,4 +16,4 @@ This is the fun part. Decisions are made every day in our community, decisions t
 
 Who can run for office? You can! We really want to encourage you (yes you!) to consider running for Precinct Committe, School Board, County Board, and City Council. What's more, we can help. If you're considering running to represent progressive values in our community, we will help you along the way.
 
-CTA HERE
+[JOIN THE MOVEMENT](contact)

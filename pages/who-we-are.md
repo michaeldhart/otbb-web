@@ -6,7 +6,7 @@ Operation Turn Boone Blue is a growing group of left-leaning residents of Belvid
 
 **Do you want to be a part of this with us?** We believe in recruiting as many progressive voices as possible to magnify our efforts. If you care about progressive values like health care, the environment, gender equality, LGBTQIA+ rights in your community, we want you to be a part of the movement!
 
-CTA HERE
+[JOIN THE MOVEMENT](contact)
 
 # Founding Members
 
