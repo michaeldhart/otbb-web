@@ -3,3 +3,5 @@ main:
     url: /pages/who-we-are
   - title: 'What We Do'
     url: /pages/what-we-do
+  - title: 'Contact Us'
+    url: /pages/contact
