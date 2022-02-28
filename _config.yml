@@ -21,7 +21,7 @@ minimal_mistakes_skin: 'default'
 title: Operation Turn Boone Blue
 subtitle: 'Organizing to Elect Progressives in Belvidere and Boone County'
 url: 'https://michaeldhart.github.io'
-baseurl: '/otbb-web/dest'
+baseurl: '/otbb-web/dest/'
 encoding: 'utf-8'
 atom_feed:
   hide: true
@@ -46,7 +46,7 @@ defaults:
       layout: 'single'
       title: 'You should set the title front matter to override for this page'
       header:
-        overlay_image: /assets/images/big_thunder_park.jpg
+        overlay_image: assets/images/big_thunder_park.jpg
         overlay_filter: rgba(25, 59, 121, 0.8)
       author_profile: false
   - scope:
@@ -57,7 +57,7 @@ defaults:
       title: 'You should set the title front matter to override for this page'
       excerpt: ''
       header:
-        overlay_image: /assets/images/big_thunder_park.jpg
+        overlay_image: assets/images/big_thunder_park.jpg
         overlay_filter: rgba(25, 59, 121, 0.8)
       author_profile: true
       read_time: false
@@ -70,7 +70,7 @@ defaults:
       layout: 'collection'
       title: 'You should set the title front matter to override for this page'
       header:
-        overlay_image: /assets/images/big_thunder_park.jpg
+        overlay_image: assets/images/big_thunder_park.jpg
         overlay_filter: rgba(25, 59, 121, 0.8)
       author_profile: false
 collections:
