@@ -21,7 +21,7 @@ minimal_mistakes_skin: 'default'
 title: Operation Turn Boone Blue
 subtitle: 'Organizing to Elect Progressives in Belvidere and Boone County'
 url: 'https://michaeldhart.github.io'
-baseurl: '/otbb-web'
+baseurl: '/otbb-web/dest'
 encoding: 'utf-8'
 atom_feed:
   hide: true
