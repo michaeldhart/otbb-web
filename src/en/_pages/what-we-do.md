@@ -1,5 +1,7 @@
 ---
 title: 'What We Do'
+lang: 'en'
+lang-ref: 'what-we-do'
 ---
 
 In the broadest sense, the mission of OTBB is to elect progressives to office in Belvidere and Boone County. In order to accomplish this, we work at two main tasks: mobilizing voters and recruiting progressives to run for office.

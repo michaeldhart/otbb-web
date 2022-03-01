@@ -1,7 +1,7 @@
 main:
   - title: 'Who We Are'
-    url: /pages/who-we-are
+    url: /en/pages/who-we-are
   - title: 'What We Do'
-    url: /pages/what-we-do
+    url: /en/pages/what-we-do
   - title: 'Contact Us'
-    url: /pages/contact
+    url: /en/pages/contact

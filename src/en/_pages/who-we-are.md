@@ -1,5 +1,7 @@
 ---
 title: 'Who We Are'
+lang: 'en'
+lang-ref: 'who-we-are'
 ---
 
 Operation Turn Boone Blue is a growing group of left-leaning residents of Belvidere and Boone County who started to organize in 2021 during the COVID-19 pandemic. Though the pandemic hindered our early efforts we continue to believe that there is a significant (and growing) population of like-minded locals in Boone County, and that if we organize we can change public policy and improve the lives of the people in our community.

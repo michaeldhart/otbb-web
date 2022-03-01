@@ -40,25 +40,30 @@ footer:
 # Content settings
 defaults:
   - scope:
-      path: '_pages'
+      path: ''
     values:
-      permalink: /pages/:basename.html
       layout: 'single'
       title: 'You should set the title front matter to override for this page'
       header:
         overlay_image: assets/images/big_thunder_park.jpg
         overlay_filter: rgba(25, 59, 121, 0.8)
+  - scope:
+      path: 'en/_pages'
+    values:
+      permalink: en/pages/:basename.html
+      type: pages
+      author_profile: false
+  - scope:
+      path: 'es/_pages'
+    values:
+      permalink: es/pages/:basename.html
+      type: pages
       author_profile: false
   - scope:
       path: '_blog'
     values:
       permalink: /blog/:year/:month/:day/:title.html
-      layout: 'single'
-      title: 'You should set the title front matter to override for this page'
       excerpt: ''
-      header:
-        overlay_image: assets/images/big_thunder_park.jpg
-        overlay_filter: rgba(25, 59, 121, 0.8)
       author_profile: true
       read_time: false
       share: false
@@ -68,10 +73,6 @@ defaults:
       path: '_collections'
     values:
       layout: 'collection'
-      title: 'You should set the title front matter to override for this page'
-      header:
-        overlay_image: assets/images/big_thunder_park.jpg
-        overlay_filter: rgba(25, 59, 121, 0.8)
       author_profile: false
 collections:
   blog:
