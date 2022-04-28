@@ -50,19 +50,19 @@ defaults:
   - scope:
       path: 'en/_pages'
     values:
-      permalink: en/pages/:basename.html
+      permalink: /en/pages/:basename.html
       type: pages
       author_profile: false
   - scope:
       path: 'es/_pages'
     values:
-      permalink: es/pages/:basename.html
+      permalink: /es/pages/:basename.html
       type: pages
       author_profile: false
   - scope:
-      path: '_blog'
+      path: 'en/_blog'
     values:
-      permalink: /blog/:year/:month/:day/:title.html
+      permalink: /en/blog/:basename.html
       excerpt: ''
       author_profile: true
       read_time: false
@@ -70,10 +70,31 @@ defaults:
       related: true
       classes: wide
   - scope:
-      path: '_collections'
+      path: 'es/_blog'
     values:
-      layout: 'collection'
+      permalink: /es/blog/:basename.html
+      excerpt: ''
+      author_profile: true
+      read_time: false
+      share: false
+      related: true
+      classes: wide
+  - scope:
+      path: ''
+      type: recipes
+    values:
+      layout: single
       author_profile: false
+      share: true
 collections:
-  blog:
+  recipes:
     output: true
+    permalink: /:collection/:path
+  en:
+    output: true
+    blog:
+      output: true
+  es:
+    output: true
+    blog:
+      output: true
